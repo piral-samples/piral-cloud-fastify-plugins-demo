@@ -1,0 +1,17 @@
+{
+  "name": "piral-cloud-fastify-plugins-demo",
+  "version": "1.0.0",
+  "description": "Simple Fastify demo server showing how to create pluggable servers.",
+  "module": "index.mjs",
+  "scripts": {
+    "start": "node --experimental-vm-modules index.mjs"
+  },
+  "keywords": [],
+  "author": "smapiot",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "5.0.0",
+    "find-my-way": "^9.1.0",
+    "ws": "^8.18.0"
+  }
+}

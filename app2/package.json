@@ -1,0 +1,13 @@
+{
+  "name": "app2",
+  "version": "1.0.0",
+  "description": "The second MF.",
+  "module": "lib/index.mjs",
+  "author": "Florian Rappl",
+  "scripts": {
+    "deploy": "publish-microfrontend --url https://feed.dev.piral.cloud/api/v1/pilet/fastify-demo --interactive"
+  },
+  "devDependencies": {
+    "publish-microfrontend": "^1.6.2"
+  }
+}

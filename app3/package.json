@@ -1,0 +1,19 @@
+{
+  "name": "app3",
+  "version": "1.0.2",
+  "description": "The third MF.",
+  "module": "dist/index.js",
+  "author": "Florian Rappl",
+  "scripts": {
+    "build": "esbuild --outdir=dist src/index.ts --bundle --platform=node --format=esm",
+    "deploy": "npm run build && publish-microfrontend --url https://feed.dev.piral.cloud/api/v1/pilet/fastify-demo --interactive"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "publish-microfrontend": "^1.6.2"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "uuid": "^10.0.0"
+  }
+}
